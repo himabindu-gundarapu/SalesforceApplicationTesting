@@ -84,7 +84,7 @@ public class SfDC37_TestCases extends ReusableMethodsTestNG {
 		WebElement Uname = driver.findElement(By.id("username"));
 		EnterText(Uname, "himabindu@sbn.com", "username");
 		WebElement pwd = driver.findElement(By.id("password"));
-		EnterText(pwd, "nishu123@123", "password");
+		EnterText(pwd, "Testqa2020", "password");
 		Thread.sleep(2000);
 		WebElement Checkbox = driver.findElement(By.xpath("//*[@id=\"login_form\"]/div[3]/label"));
 		CheckButton(Checkbox, "Checkbox");
